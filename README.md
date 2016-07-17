@@ -29,7 +29,7 @@ Get the version information for one (or more) selected project references
 Open the NuGet.org home page for any selected NuGet references
 
 ### 3. Search StackOverflow
-Open a StackOverflow search for based on the NuGet id of selected references
+Open a StackOverflow search based on the NuGet id of selected references
 
 ## Contribute
 Check out the [contribution guidelines](CONTRIBUTING.md)
