@@ -5,17 +5,16 @@
 //------------------------------------------------------------------------------
 
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.Design;
-using System.Globalization;
-using System.Linq;
+
 using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
-using System.Collections.Generic;
 
 using EnvDTE80;
 using EnvDTE;
 
-namespace NuGetContextMenuExtension.Commands
+namespace ProjectReferenceContextMenuExtension.Commands
 {
 	/// <summary>
 	/// Command handler

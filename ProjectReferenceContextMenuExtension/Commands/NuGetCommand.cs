@@ -14,7 +14,7 @@ using Microsoft.VisualStudio.Shell;
 using EnvDTE80;
 using EnvDTE;
 
-namespace NuGetContextMenuExtension.Commands
+namespace ProjectReferenceContextMenuExtension.Commands
 {
 	/// <summary>
 	/// Command handler

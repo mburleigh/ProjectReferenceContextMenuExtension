@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using Microsoft.VisualStudio.Shell;
 
-namespace NuGetContextMenuExtension.Commands
+namespace ProjectReferenceContextMenuExtension.Commands
 {
 	internal class CommandBase
 	{

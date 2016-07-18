@@ -5,18 +5,11 @@
 //------------------------------------------------------------------------------
 
 using System;
-using System.ComponentModel.Design;
-using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
 using System.Runtime.InteropServices;
-using Microsoft.VisualStudio;
-using Microsoft.VisualStudio.OLE.Interop;
 using Microsoft.VisualStudio.Shell;
-using Microsoft.VisualStudio.Shell.Interop;
-using Microsoft.Win32;
 
-namespace NuGetContextMenuExtension
+namespace ProjectReferenceContextMenuExtension
 {
 	/// <summary>
 	/// This is the class that implements the package exposed by this assembly.
@@ -36,9 +29,9 @@ namespace NuGetContextMenuExtension
 	/// </para>
 	/// </remarks>
 	[PackageRegistration(UseManagedResourcesOnly = true)]
-	[InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 400)] // Info on this package for Help/About
+	[InstalledProductRegistration("#110", "#112", Vsix.Version, IconResourceID = 400)] // Info on this package for Help/About
 	[ProvideMenuResource("Menus.ctmenu", 1)]
-	[Guid(ProjectReferenceContextMenuExtensionCommandPackage.PackageGuidString)]
+	[Guid(PackageGuidString)]
 	[SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1650:ElementDocumentationMustBeSpelledCorrectly", Justification = "pkgdef, VS and vsixmanifest are valid VS terms")]
 	public sealed class ProjectReferenceContextMenuExtensionCommandPackage : Package
 	{

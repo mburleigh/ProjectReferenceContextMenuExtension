@@ -7,9 +7,8 @@ using System.Xml.Linq;
 
 using EnvDTE;
 using EnvDTE80;
-using System.Diagnostics;
 
-namespace NuGetContextMenuExtension.Commands
+namespace ProjectReferenceContextMenuExtension.Commands
 {
     class _CommonCommandUtilities
     {
