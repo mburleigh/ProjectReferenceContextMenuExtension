@@ -1,10 +1,8 @@
 # Project Reference Context Menu Extension
 
-<!-- Replace this badge with your own-->
-[![Build status](https://ci.appveyor.com/api/projects/status/hv6uyc059rqbc6fj?svg=true)](https://ci.appveyor.com/project/madskristensen/extensibilitytools)
+[![Build status](https://ci.appveyor.com/api/projects/status/b44718hbkq3mf99p?svg=true)](https://ci.appveyor.com/project/mburleigh/projectreferencecontextmenuextension)
 
-<!-- Update the VS Gallery link after you upload the VSIX-->
-Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/[GuidFromGallery])
+Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/b2a3b8ac-2542-4415-91ed-daf4b0c9285b)
 or get the [CI build](http://vsixgallery.com/extension/f8b219f9-f168-481a-b73b-b85d79eceb7b/).
 
 ---------------------------------------

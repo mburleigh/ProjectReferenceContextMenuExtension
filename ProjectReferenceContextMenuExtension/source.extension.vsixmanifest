@@ -4,6 +4,7 @@
     <Identity Id="f8b219f9-f168-481a-b73b-b85d79eceb7b" Version="1.0" Language="en-US" Publisher="Matt Burleigh" />
     <DisplayName>Project Reference Context Menu Extension</DisplayName>
     <Description xml:space="preserve">Adds context menu items to project reference to quickly open NuGet, Stack Overflow, etc for one or more references.</Description>
+    <MoreInfo>https://github.com/mburleigh/ProjectReferenceContextMenuExtension</MoreInfo>
     <License>Resources\license</License>
     <Icon>Resources\icon.png</Icon>
     <PreviewImage>Resources\preview.png</PreviewImage>

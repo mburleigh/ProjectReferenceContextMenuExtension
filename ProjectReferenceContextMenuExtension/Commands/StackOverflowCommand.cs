@@ -84,6 +84,7 @@ namespace NuGetContextMenuExtension.Commands
 			// TODO: allow user to specify default browser to use
 			nugets.Distinct().ToList().ForEach(x => {
 				System.Diagnostics.Process.Start(x);
+				// need a delay s StackOverflow doesn't think we're a bot
 				System.Threading.Thread.Sleep(2500);
 			});
 		}
