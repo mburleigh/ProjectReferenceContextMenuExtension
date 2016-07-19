@@ -82,8 +82,7 @@ namespace ProjectReferenceContextMenuExtension.Commands
 						collection.Add($"https://www.nuget.org/packages/{packageId}");
 				});
 
-			// TODO: allow user to specify default browser to use
-			nugets.Distinct().ToList().ForEach(x => System.Diagnostics.Process.Start(x));
+			LaunchInBrowser(nugets.Distinct().ToList(), "No Valid Packages", "None of the selected packages are NuGet packages.\r\nThis command will only function for NuGet packages.");
         }
 	}
 }

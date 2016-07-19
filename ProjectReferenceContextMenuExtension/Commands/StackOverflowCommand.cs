@@ -81,12 +81,8 @@ namespace ProjectReferenceContextMenuExtension.Commands
 						collection.Add($"http://stackoverflow.com/search?q={packageId}");
 				});
 
-			// TODO: allow user to specify default browser to use
-			nugets.Distinct().ToList().ForEach(x => {
-				System.Diagnostics.Process.Start(x);
-				// need a delay s StackOverflow doesn't think we're a bot
-				System.Threading.Thread.Sleep(2500);
-			});
+
+			LaunchInBrowser(nugets.Distinct().ToList(), "No Valid Packages", "None of the selected packages are NuGet packages.\r\nThis command will only function for NuGet packages.", 2500);
 		}
 	}
 }
